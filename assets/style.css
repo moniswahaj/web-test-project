@@ -1,0 +1,316 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+    width: 100%;
+    background: #c5c5f7;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    border: 1px solid #a7a7a7;
+}
+header .row {
+	margin: 0px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.main_title {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.main_title h2 {
+	text-transform: capitalize;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: auto;
+}
+.main_section {
+    width: 100%;
+}
+.main_section .row {
+	margin: 0;
+}
+aside.col-2 {
+    background: #f2e6f7;
+    border: 1px solid #a7a7a7;
+    margin-right: .666667%;
+    flex: 0 0 6%;
+    max-width: 6%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+aside.col-2.show_menu {
+    flex: 0 0 16%;
+    max-width: 16%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.menus ul {
+	list-style: none;
+	padding: 0;
+}
+.menus ul li {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 25px 0;
+    text-align: center;
+    padding: 12px 0;
+    background: #c5c5f7;
+}
+.menus ul li:last-child {
+    margin-top: 155px;
+}
+.menus ul li a {
+	text-decoration: none;
+	color: #333;
+    display: flex;
+    justify-content: center;
+}
+.menu_n {
+    display: none;
+    white-space: nowrap;
+}
+.show_menu .menu_n{
+    display: block;
+}
+.menu i {
+    display: block;
+}
+.show_menu .menu i {
+    display: none;
+}
+section.col-10 {
+    border: 1px solid #a7a7a7;
+    padding: 25px;
+    background: #c5c5f7;
+    flex: 0 0 93.333333%;
+    max-width: 93.333333%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+section.col-10.sec_dec {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.sec_desc {
+    background: #f2e6f7;
+}
+.sec_img img {	
+	width: 100%;
+    height: 500px;
+    padding: 0 0 0 20px;
+}
+.sec_img iframe {
+    width: 100%;
+}
+.sec_img {
+    padding-right: 0;
+}
+.desc_title h3 {
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: auto;
+    padding-top: 38px;
+}
+.author h5 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: auto;
+    padding: 20px 100px;
+    text-align: right;
+}
+.desc p {
+    font-family: auto;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0 0;
+}
+#contact_pg .menus ul li:last-child {
+    margin-top: 270px;
+}
+.contact_form {
+    padding: 30px 50px;
+}
+.contact_form label {
+    font-weight: 600;
+    font-family: auto;
+    color: #000;
+    vertical-align: sub;
+}
+.contact_form textarea {
+    border: 2px solid #b5bdc5;
+    border-radius: 0px;
+    margin-bottom: 25px;
+}
+.contact_form input {
+    border: none;
+    border-radius: 0px;
+    height: calc(1em + 0.75rem + 2px);
+    line-height: 1;
+}
+.contact_form .custom-select {
+    height: calc(1em + 0.75rem + 2px);
+    line-height: 1;
+    border-radius: 0px;
+}
+.contact_form .form-row {
+    margin-bottom: 20px;
+    background: #c5c5f7;
+    padding: 12px 40px 5px;
+}
+.contact_form .btn {
+    background: #c5c5f7;
+    border-radius: 0px;
+    box-shadow: 1px 1px 3px #000;
+    padding: 0.1rem 1.75rem;
+}
+.table {
+    text-align: center;
+    margin-bottom: 0rem;
+    color: #000;
+}
+thead tr.title th {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+tr.title {
+    background: #c5c5f7;
+} 
+tr.sub_title {
+    background: #c5c5f7;
+}
+tr.title th {
+    border: none;
+}
+thead th {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+tbody td {
+    font-size: 18px;
+    font-weight: 600;
+}
+tbody .ta_st {
+    text-transform: capitalize;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #000;
+}
+.table thead th {
+    border-bottom: 1px solid #000;
+}
+.table-bordered {
+    border: 1px solid #000;
+}
+.profile_table {
+    background: #f2e6f7;
+    width: 100%;
+    padding: 30px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(242 230 247);
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgb(197 197 247);
+}
+.table td, .table th {
+    padding: 0.5rem;
+}
+
+/********* login page css **********/
+#login_form {
+    width: 650px;
+    background-color: rgb(209 192 237);
+    padding: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+}
+#index_pg {
+    background-color: rgb(197 197 247);
+}
+ .login_icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#login_form form input {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    color: #000;
+    border: none;
+} 
+#login_form form input {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    color: #000;
+    border: none;
+}   
+#login_form form input::placeholder {
+    text-align: center;
+}
+.login {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+} 
+.login button {
+    background: #60605d;
+    padding: 4px 40px;
+    color: #dfdfdf;
+    border-radius: 0px;
+    box-shadow: -1px -1px 0px 1px #fff;
+}
+.login button:hover {
+    color: #dfdfdf;
+}
+.instructions .row {    
+    margin: 0 auto;
+}
+#message {
+    display:none;
+    background: #4e4c4c;
+    color: #fff;
+    position: relative;
+    padding: 5px;
+}
+#message p {
+    padding: 0px 16px;
+    font-size: 16px;
+}
+#message h6 {
+    margin: 10px 0;
+}
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -25px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -25px;
+  content: "✖";
+}
+/********* /login page css **********/
